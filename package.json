@@ -2,7 +2,6 @@
   "name": "iBook",
   "version": "1.0.0",
   "description": "这是一个GitBook自动化构建的Demo",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
@@ -10,7 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/zhengshangzi/iBook.git"
   },
-  "keywords": [],
   "author": "zhengshangzi",
   "license": "MIT",
   "bugs": {
@@ -18,12 +16,11 @@
   },
   "homepage": "https://github.com/zhengshangzi/iBook#readme",
   "devDependencies": {
-    "gitbook-cli": "^2.3.2", 
-    "grunt": "^1.0.1",
+    "gitbook-cli": "^2.3.2",
+    "grunt": "^1.0.4",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
     "grunt-contrib-uglify": "^4.0.1"
-
   }
 }
